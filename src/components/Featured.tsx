@@ -9,13 +9,18 @@ export default function Featured() {
         />
       </div>
       <div className="flex-1 text-left lg:h-[800px] flex flex-col justify-center lg:mr-12 lg:order-1">
-        <h3 className="uppercase mb-4 text-sm tracking-wide text-neutral-600">Функции, которые не стоят на месте</h3>
+        <h3 className="uppercase mb-4 text-sm tracking-wide text-neutral-600">Твои права в цифровом мире</h3>
         <p className="text-2xl lg:text-4xl mb-8 text-neutral-900 leading-tight">
-          Не просто список возможностей — живые, дышащие акценты. Каждая функция адаптируется к движению, контексту и настроению,
-          оживляя продукт с первого взгляда.
+          Каждый гражданин вправе знать, кто собирает его данные, зачем и как долго. Закон на твоей стороне — нужно лишь уметь им пользоваться.
         </p>
+        <ul className="mb-8 space-y-2 text-neutral-700 text-base lg:text-lg">
+          <li>— Право на доступ к своим данным</li>
+          <li>— Право на исправление и удаление</li>
+          <li>— Право отозвать согласие в любой момент</li>
+          <li>— Право на защиту от автоматических решений</li>
+        </ul>
         <button className="bg-black text-white border border-black px-4 py-2 text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer w-fit uppercase tracking-wide">
-          Подробнее
+          Скачать памятку прав
         </button>
       </div>
     </div>
